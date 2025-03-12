@@ -1,1 +1,3 @@
-print("Hello ! What FA would you like to use ? Chose a number between 1 and 30.")
+import Reading as r
+
+r.build_matrix_from_Automata(r.read_Automata_From_File())
