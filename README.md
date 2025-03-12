@@ -4,10 +4,15 @@ Bienvenue dans ce projet visant à automatiser les calculs sur automates. Pour {
 
 Dans le code un FA est representé de cette manière :
 
-class FA():\n
-    def __init__(self):\n
-      self.states={state:"E" or state : " " or state : "S" or state:"T"} // with E for entry, S for Exit, T for two (entry and exit) and " " for none\n
-      self.letters=[letter 1, letter 2,..., letter n]\n
-      self.automaton=[[state, next state for letter 1, next state for letter 2,....,next state for letter n]]\n
-      self.det=0\n
-      self.stand=0\n
+class FA():
+    def __init__(self):
+    
+      self.states={state:"E" or state : " " or state : "S" or state:"T"} // with E for entry, S for Exit, T for two (entry and exit) and " " for none
+    
+      self.letters=[letter 1, letter 2,..., letter n]
+      
+      self.automaton=[[state, next state for letter 1, next state for letter 2,....,next state for letter n]]
+      
+      self.det=0
+      
+      self.stand=0
