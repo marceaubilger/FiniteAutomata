@@ -1,3 +1,5 @@
+import classAutomata as c
+
 def is_deterministic(automaton):
     """
     @breif : Checks if the given automaton is deterministic.
@@ -6,12 +8,14 @@ def is_deterministic(automaton):
     """
     # Condition 1: There must be exactly one initial state
     if len(automaton.initials) != 1:
+        print("not one state")
         return False
 
     # Condition 2: No state should have multiple transitions for the same symbol
 
     for (state, symbol), next_state in automaton.transitions.items():
         if len(next_state)!=1:
+            print("transitions")
             return False
     return True
 
@@ -25,3 +29,58 @@ def IsComplete(automaton):
     if len(automaton.transitions) != len(automaton.alphabet)*len(automaton.states): #check is for each state and letter there is a transiton
         return False
     return True
+
+def DeterminizeAutomata(automaton):
+    new_transitions = {}
+    new_initials = automaton.initials
+
+    # If multiple initial states, create a combined new initial state
+    if len(automaton.initials) > 1:
+        new_initials = "".join(str(i) for i in automaton.initials)  # Merge initial states into a string
+
+        # Generate transitions for the new initial state
+        for letter in automaton.alphabet:
+            new_transitions[(new_initials, letter)] = GetNExtState(automaton, new_initials, letter)
+
+    # Copy transitions and add missing states if needed
+    for (state, symbol), next_state in automaton.transitions.items():
+        new_transitions[(state, symbol)] = next_state
+
+        # If the next state is not in automaton.states, add it and create new transitions
+        if next_state not in automaton.states:
+            automaton.states.append(next_state)
+            for letter in automaton.alphabet:
+                new_transitions[(next_state, letter)] = GetNExtState(automaton, next_state, letter)
+
+    # Find new final states
+    new_final_states = [state for state in automaton.states if any(f in str(state) for f in automaton.finals)]
+
+    # Remove states that were merged into new_initials from transitions
+    states_to_remove = set(map(str, automaton.initials))  # Convert initial states to strings
+    new_transitions = {k: v for k, v in new_transitions.items() if k[0] not in states_to_remove}
+
+    # Create and return the new automaton
+    new_automaton = c.Automata(automaton.states, automaton.alphabet, new_transitions, new_initials, new_final_states)
+    return new_automaton
+
+
+
+
+
+
+
+def GetNExtState(automaton,stateToAnalyse,symbolToAnalyse):
+    listState=list(stateToAnalyse)
+    new_next_state=""
+
+    for i in listState:
+        for (state, symbol), next_state in automaton.transitions.items():
+            if i==state and symbolToAnalyse == symbol:
+                new_next_state+=str(next_state).replace("{","").replace("}","").replace(",","").replace(" ","")
+    new_next_state_clean=""
+
+    for n in new_next_state:
+        if n not in new_next_state_clean:
+            new_next_state_clean+=n
+    return new_next_state_clean
+

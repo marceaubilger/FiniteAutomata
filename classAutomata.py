@@ -2,10 +2,10 @@ class Automata:
 
     def __init__(self,states,alphabet,transitions,initials,finals):
         self.alphabet=alphabet              #set of letters
-        self.states=states                  #set of states 
+        self.states=states                  #list of states 
         self.initials=initials              #set of initials state
         self.finals=finals                  #set of final state
-        self.transitions=transitions        #dictionnary of trnasitions
+        self.transitions=transitions        #dictionnary of transitions
     
     
     def __str__(self):
@@ -15,4 +15,3 @@ class Automata:
             f"Final States: {self.finals}\n"
             f"Transitions:\n" +
             "\n".join([f"  ({k[0]}, '{k[1]}') → {v}" for k, v in self.transitions.items()]))
-    
