@@ -18,13 +18,13 @@ def CreateAutomata(text):
         states[s]=str(s)
 
     tmp_initials=text[3].split(" ")
+    HowManyInitials=len(tmp_initials)
     initials = list(int(k) for k in tmp_initials)
 
     tmp_finals=(text[4].strip()).split(" ")
     finals = list(m for m in tmp_finals)
 
     transitions = text[5].split()  # Split by spaces
-    print(transitions)
     transition_dict = {}
 
     for transition in transitions:
@@ -37,5 +37,5 @@ def CreateAutomata(text):
         else:
             transition_dict[(state, symbol)] = next_state  # Create new set
     
-    automata=c.Automata(states,alphabet,transition_dict,initials,finals)
+    automata=c.Automata(states,alphabet,transition_dict,initials,finals,HowManyInitials)
     return automata
