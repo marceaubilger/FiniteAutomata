@@ -7,17 +7,17 @@ import Standard as s
 
 text=r.readFileToDictionary("TestAutomata")
 
+print("Initial automaton : \n")
+
 automata=r.CreateAutomata(text)
 
 print(automata)
-print("\n")
 
-new_automaton=s.Standardize(automata)
-print(new_automaton)
+print("\nDeterminizing the automaton : \n")
 
-# new_automaton=d.DeterminizeAutomata(automata)
-# print(new_automaton)
-# print("1\n")
+d_automaton=d.DeterminizeAutomata(automata)
+print(d_automaton)
+
 
 # if d.is_deterministic(new_automaton) ==False:
 #     new_automaton=d.DeterminizeAutomata(new_automaton)
@@ -35,6 +35,10 @@ print(new_automaton)
 #     new_automaton=d.DeterminizeAutomata(new_automaton)
 #     t+=1
 #     print(t)
-# print(d.is_deterministic(new_automaton))
-print(new_automaton.transitions)
-print(s.isStandard(new_automaton))
+print(d.is_deterministic(d_automaton))
+
+print("\nStandardizing the automaton : \n")
+s_automaton=s.Standardize(automata)
+print(s_automaton)
+print(s_automaton.transitions)
+print(s.isStandard(s_automaton))
