@@ -12,8 +12,11 @@ automata=r.CreateAutomata(text)
 print(automata)
 print("\n")
 
-new_automaton=d.DeterminizeAutomata(automata)
+new_automaton=s.Standardize(automata)
 print(new_automaton)
+
+# new_automaton=d.DeterminizeAutomata(automata)
+# print(new_automaton)
 # print("1\n")
 
 # if d.is_deterministic(new_automaton) ==False:
@@ -32,4 +35,6 @@ print(new_automaton)
 #     new_automaton=d.DeterminizeAutomata(new_automaton)
 #     t+=1
 #     print(t)
-print(d.is_deterministic(new_automaton))
+# print(d.is_deterministic(new_automaton))
+print(new_automaton.transitions)
+print(s.isStandard(new_automaton))
