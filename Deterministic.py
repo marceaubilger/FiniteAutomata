@@ -61,7 +61,7 @@ def DeterminizeAutomata(automaton):
                 new_transitions[(next_state, letter)] = GetNExtState(automaton, next_state, letter)
 
     # Find new final states
-    new_final_states = [int(state) for state in automaton.states if any(str(f) in str(state) for f in automaton.finals)]
+    new_final_states = [state for state in automaton.states if any(str(f) in str(state) for f in automaton.finals)]
 
     # Remove states that were merged into new_initials from transitions
     if HadMoreThanOneEntrie is True:

@@ -19,10 +19,10 @@ def CreateAutomata(text):
 
     tmp_initials=text[3].split(" ")
     HowManyInitials=len(tmp_initials)
-    initials = list(int(k) for k in tmp_initials)
+    initials = [k[:-1] if k[-1] == "\n" else k for k in tmp_initials]
     
     tmp_finals=text[4].split(" ")
-    finals = list(int(m) for m in tmp_finals)
+    finals = [k[:-1] if k[-1] == "\n" else k for k in tmp_finals]
 
     transitions = text[5].split()  # Split by spaces
     transition_dict = {}
