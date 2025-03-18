@@ -4,7 +4,8 @@ import classAutomata as c
 
 
 
-text=r.readFileToDictionnary("TestAutomata")
+text=r.readFile("TestAutomata")
+
 automata=r.CreateAutomata(text)
 
 print(automata)

@@ -1,9 +1,9 @@
 import classAutomata as c
-def readFileToDictionnary(file_name):
+def readFile(file_name):
     """
     @breif : read the automa from a text file
     @param : the file name
-    @return : the text
+    @return : every line of the file in a list
     """
     with open(file_name,"r",encoding="utf-8") as file:
         text=file.readlines()
@@ -20,9 +20,9 @@ def CreateAutomata(text):
     tmp_initials=text[3].split(" ")
     HowManyInitials=len(tmp_initials)
     initials = list(int(k) for k in tmp_initials)
-
-    tmp_finals=(text[4].strip()).split(" ")
-    finals = list(m for m in tmp_finals)
+    
+    tmp_finals=text[4].split(" ")
+    finals = list(int(m) for m in tmp_finals)
 
     transitions = text[5].split()  # Split by spaces
     transition_dict = {}
