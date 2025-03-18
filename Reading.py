@@ -1,5 +1,5 @@
 import classAutomata as c
-def readFile(file_name):
+def readFileToDictionary(file_name):
     """
     @breif : read the automa from a text file
     @param : the file name

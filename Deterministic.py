@@ -95,9 +95,9 @@ def GetNExtState(automaton,stateToAnalyse,symbolToAnalyse):
             if i==state and symbolToAnalyse == symbol:
                 new_next_state+=str(next_state).replace("{","").replace("}","").replace(",","").replace(" ","")
     new_next_state_clean=""
-
+    
+    #clean the string from duplicates
     for n in new_next_state:
         if n not in new_next_state_clean:
             new_next_state_clean+=n
     return new_next_state_clean
-

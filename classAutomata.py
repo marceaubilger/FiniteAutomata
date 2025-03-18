@@ -6,8 +6,7 @@ class Automata:
         self.initials=initials              #set of initials state
         self.finals=finals                  #set of final state
         self.transitions=transitions        #dictionnary of transitions
-        self.HowManyInitials=howMany        #
-    
+        self.HowManyInitials=howMany        #number of initials states    
     
     def __str__(self):
      return (f"Alphabet: {self.alphabet}\n"
