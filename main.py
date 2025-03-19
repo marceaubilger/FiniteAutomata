@@ -13,12 +13,15 @@ print("Initial automaton : \n")
 automata=r.CreateAutomata(text)
 
 print(automata)
+print("\n")
 
-print("\nDeterminizing the automaton : \n")
-
-d_automaton=d.DeterminizeAutomata(automata)
-print(d_automaton)
-
+automata.display()
+# 
+# print("\nDeterminizing the automaton : \n")
+# 
+# d_automaton=d.DeterminizeAutomata(automata)
+# print(d_automaton)
+# 
 # 
 # if d.is_deterministic(new_automaton) ==False:
 #     new_automaton=d.DeterminizeAutomata(new_automaton)
@@ -36,20 +39,20 @@ print(d_automaton)
 #     new_automaton=d.DeterminizeAutomata(new_automaton)
 #     t+=1
 #     print(t)
-print(d.is_deterministic(d_automaton))
-
-print("\nStandardizing the automaton : \n")
-s_automaton=s.Standardize(automata)
-print(s_automaton)
-print(s_automaton.transitions)
-print(s.isStandard(s_automaton))
-
-print("\nCompleting the automaton : \n")
-c_automaton=O.CompleteAutomata(automata)
-print(c_automaton)
-print(O.IsComplete(c_automaton))
-
-
-print("\nComplementing the automaton : \n")
-complement=inverse.Complementary(automata)
-print(complement)
+# print(d.is_deterministic(d_automaton))
+# 
+# print("\nStandardizing the automaton : \n")
+# s_automaton=s.Standardize(automata)
+# print(s_automaton)
+# print(s_automaton.transitions)
+# print(s.isStandard(s_automaton))
+# 
+# print("\nCompleting the automaton : \n")
+# c_automaton=O.CompleteAutomata(automata)
+# print(c_automaton)
+# print(O.IsComplete(c_automaton))
+# 
+# 
+# print("\nComplementing the automaton : \n")
+# complement=inverse.Complementary(automata)
+# print(complement)
