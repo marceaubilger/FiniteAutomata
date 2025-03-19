@@ -42,15 +42,13 @@ class Automata:
         
         # Determine the maximum length of state names and transition values for formatting
         length = max([len(state) for state in self.states + [val for val in self.transitions.values()]])
-        print("length",length)
         length += length % 2  # Ensure the length is even
-        print("length even",length)
+        maxLengthStates = max([len(state) for state in self.states])
         # Initialize the transition table with the alphabet symbols, formatted to the determined length
-        trans = [[' '*5]]
+        trans = [[' '*(3+maxLengthStates)]]
         for letter in self.alphabet:
             spaces = ' ' * (length//2 - len(letter) + 1)  # Create a string of spaces for formatting
             trans[0].append(spaces[1:] + letter + spaces)  # Append the formatted alphabet symbol
-        print(trans[0])
         
         # Iterate over each state to construct the rows of the transition table
         for i in range(len(stats)):
@@ -75,4 +73,5 @@ class Automata:
             trans.append(line)  # Add the constructed row to the transition table
         
         # Print the transition table with '|' as the column separator and each row on a new line
-        print(str(trans).replace("],", "\n").replace(",", "|").replace("'", "").replace("[", "").replace("]", ""))
+        print(str(trans))
+        print(str(trans).replace("]]", "|").replace("[[","").replace(",", "|").replace("'", "").replace("[", "\n").replace("]", ""))
