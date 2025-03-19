@@ -2,7 +2,7 @@ import Reading as r
 import Deterministic as d
 import classAutomata as c
 import Standard as s
-
+import Complete as O
 
 
 text=r.readFileToDictionary("TestAutomata")
@@ -18,7 +18,7 @@ print("\nDeterminizing the automaton : \n")
 d_automaton=d.DeterminizeAutomata(automata)
 print(d_automaton)
 
-
+# 
 # if d.is_deterministic(new_automaton) ==False:
 #     new_automaton=d.DeterminizeAutomata(new_automaton)
 #     print(new_automaton)
@@ -42,3 +42,8 @@ s_automaton=s.Standardize(automata)
 print(s_automaton)
 print(s_automaton.transitions)
 print(s.isStandard(s_automaton))
+
+print("\nCompleting the automaton : \n")
+c_automaton=O.CompleteAutomata(automata)
+print(c_automaton)
+print(O.IsComplete(c_automaton))
