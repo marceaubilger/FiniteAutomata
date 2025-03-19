@@ -3,6 +3,7 @@ import Deterministic as d
 import classAutomata as c
 import Standard as s
 import Complete as O
+import Complementary as inverse
 
 
 text=r.readFileToDictionary("TestAutomata")
@@ -47,3 +48,8 @@ print("\nCompleting the automaton : \n")
 c_automaton=O.CompleteAutomata(automata)
 print(c_automaton)
 print(O.IsComplete(c_automaton))
+
+
+print("\nComplementing the automaton : \n")
+complement=inverse.Complementary(automata)
+print(complement)
