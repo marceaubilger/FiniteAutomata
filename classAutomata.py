@@ -42,9 +42,15 @@ class Automata:
         
         # Determine the maximum length of state names and transition values for formatting
         length = max([len(state) for state in self.states + [val for val in self.transitions.values()]])
-        
+        print("length",length)
+        length += length % 2  # Ensure the length is even
+        print("length even",length)
         # Initialize the transition table with the alphabet symbols, formatted to the determined length
-        trans = [[' '*5]+[' ' * (length - len(letter)) + letter for letter in self.alphabet]]
+        trans = [[' '*5]]
+        for letter in self.alphabet:
+            spaces = ' ' * (length//2 - len(letter) + 1)  # Create a string of spaces for formatting
+            trans[0].append(spaces[1:] + letter + spaces)  # Append the formatted alphabet symbol
+        print(trans[0])
         
         # Iterate over each state to construct the rows of the transition table
         for i in range(len(stats)):
@@ -63,7 +69,7 @@ class Automata:
             for letter in self.alphabet:  # Iterate over each symbol in the alphabet
                 if (stats[i][0], letter) in self.transitions:  # Check if a transition exists for the state-symbol pair
                     new_trans = self.transitions[(stats[i][0], letter)]  # Get the resulting state for the transition
-                    line.append(' ' * (length - len(new_trans)) + new_trans)  # Append the formatted resulting state
+                    line.append(' ' * (length//2 - len(new_trans)) + new_trans + ' ' * (length//2 - len(new_trans)+1) )  # Append the formatted resulting state
                 else:
                     line.append(' ' * length)  # Append an empty cell if no transition exists
             trans.append(line)  # Add the constructed row to the transition table
