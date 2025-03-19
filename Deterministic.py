@@ -20,17 +20,6 @@ def is_deterministic(automaton):
             return False
     return True
 
-
-def IsComplete(automaton):
-    """
-    @breif : check is an automaton is complete
-    @param : the automaton class
-    @return : True is complete False otherwise
-    """
-    if len(automaton.transitions) != len(automaton.alphabet)*len(automaton.states): #check is for each state and letter there is a transiton
-        return False
-    return True
-
 def DeterminizeAutomata(automaton):
     new_transitions = {}
     new_initials = automaton.initials
@@ -39,13 +28,15 @@ def DeterminizeAutomata(automaton):
 
     # If multiple initial states, create a combined new initial state
     if len(automaton.initials) > 1:
-        new_initials = "".join(str(i) for i in automaton.initials)  # Merge initial states into a string
-
+        new_initials = ["".join(str(i) for i in automaton.initials)]  # Merge initial states into a string
+        howManyInitials=1
+        
         # Generate transitions for the new initial state NEEDS TO BE MODIFIED TO USE ONLY THE LETTERS USED BY THE JOINT INITIALS STATES AND NOT THE ENTIRE ALPHABET
         for letter in automaton.alphabet:
-            new_transitions[(new_initials, letter)] = GetNExtState(automaton, new_initials, letter)
-            howManyInitials=1
-            HadMoreThanOneEntrie=True
+            next_state = GetNExtState(automaton, new_initials, letter)
+            if next_state!="":
+                new_transitions[(new_initials, letter)] = next_state
+                HadMoreThanOneEntrie=True
 
     # Copy transitions and add missing states if needed
     for (state, symbol), next_state in automaton.transitions.items():
@@ -61,7 +52,7 @@ def DeterminizeAutomata(automaton):
                 new_transitions[(next_state, letter)] = GetNExtState(automaton, next_state, letter)
 
     # Find new final states
-    new_final_states = [int(state) for state in automaton.states if any(str(f) in str(state) for f in automaton.finals)]
+    new_final_states = [state for state in automaton.states if any(str(f) in str(state) for f in automaton.finals)]
 
     # Remove states that were merged into new_initials from transitions
     if HadMoreThanOneEntrie is True:
