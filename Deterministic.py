@@ -41,6 +41,7 @@ def DeterminizeAutomata(automaton):
     if len(automaton.initials) > 1:
         new_initials = ["".join(str(i) for i in automaton.initials)]  # Merge initial states into a string
         howManyInitials=1
+        
         # Generate transitions for the new initial state NEEDS TO BE MODIFIED TO USE ONLY THE LETTERS USED BY THE JOINT INITIALS STATES AND NOT THE ENTIRE ALPHABET
         for letter in automaton.alphabet:
             next_state = GetNExtState(automaton, new_initials, letter)

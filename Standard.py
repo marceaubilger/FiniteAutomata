@@ -50,4 +50,4 @@ def Standardize(automata):
                     newTransitions[(newInitial, letter)] = endState
         
         # Return a new automaton with the new initial state
-        return c.Automata(automata.states, automata.alphabet, newTransitions, [newInitial], automata.finals, 1)
+        return c.Automata(["I"]+automata.states, automata.alphabet, newTransitions, [newInitial], automata.finals, 1)
