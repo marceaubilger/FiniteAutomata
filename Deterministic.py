@@ -20,17 +20,6 @@ def is_deterministic(automaton):
             return False
     return True
 
-
-def IsComplete(automaton):
-    """
-    @breif : check is an automaton is complete
-    @param : the automaton class
-    @return : True is complete False otherwise
-    """
-    if len(automaton.transitions) != len(automaton.alphabet)*len(automaton.states): #check is for each state and letter there is a transiton
-        return False
-    return True
-
 def DeterminizeAutomata(automaton):
     new_transitions = {}
     new_initials = automaton.initials
