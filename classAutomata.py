@@ -1,4 +1,5 @@
 import Deterministic as d
+import Deterministic as d
 class Automata:
 
     def __init__(self,states,alphabet,transitions,initials,finals,howMany):
@@ -17,6 +18,7 @@ class Automata:
             f"How many Initials: {self.HowManyInitials}\n"
             f"Transitions:\n" +
             "\n".join([f"  ({k[0]}, '{k[1]}') → {v}" for k, v in self.transitions.items()]))
+    
     
     def display(self):
         """
@@ -79,7 +81,7 @@ class Automata:
 
 
 def ReadWord(automata,word):
-    
+
     if d.is_deterministic(automata)==False:
         determinizedAutomata=d.DeterminizeAutomata(automata)
         while d.is_deterministic(determinizedAutomata) != True:
@@ -93,6 +95,12 @@ def ReadWord(automata,word):
             q=determinizedAutomata.transitions[(q[0],word[0])]
             word=word[1:]
         except KeyError:
+
+            try :
+                q=determinizedAutomata.transitions[(q[0],'ε')]
+                word=word[1:]
+            except KeyError: 
+                return False
             return False
 
         
