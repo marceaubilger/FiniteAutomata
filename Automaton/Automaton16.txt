@@ -1,0 +1,15 @@
+Automaton16
+abcd
+5
+1
+0
+1,a,1 1,a,2 2,b,2 2,b,3 3,c,3 3,c,4 4,d,4 4,d,0
+
+
+
+
+second line is alphabet used
+third is number of states
+fourth are the states that are entries (T) 
+fitfh are the states that are exits (F)
+sixth is the transitions

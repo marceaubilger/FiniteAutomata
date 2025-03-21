@@ -9,14 +9,14 @@ def is_deterministic(automaton):
 
     # Condition 1: There must be exactly one initial state
     if automaton.HowManyInitials != 1:
-        print("not one state")
+        print("There is not one initial state")
         return False
 
     # Condition 2: No state should have multiple transitions for the same symbol
 
     for (state, symbol), next_state in automaton.transitions.items():
         if next_state not in automaton.states:
-            print("its because transitions")
+            print("It has more than one end state per transitions")
             return False
     return True
 

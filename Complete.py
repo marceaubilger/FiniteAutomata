@@ -47,7 +47,7 @@ def CompleteAutomata(automaton):
             if IsComplete(new_automaton):
                 print("Automaton is now complete.")
                 return new_automaton
-        print("Automaton is (now) deterministic.")
+        print("Automaton is deterministic.")
         # Create a copy of the states and add a new state "P"
         new_states = new_automaton.states.copy()
         new_states.append("P")
