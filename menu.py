@@ -21,10 +21,10 @@ def choseAutomaton():
     return val
 
 def choseOption():
-    choice=input("What would you like to do ? \n  1 : Enter a new automaton\n  2 : Determinize the automaton\n  3 : Complete the automaton\n  4 : Standardize the automaton\n  5 : Print out the complementary\n6 : Read a word\n7 : exit \n")
-    while not choice.isdigit() or choice<"1" or choice>"6" or len (choice)!=1:
+    choice=input("What would you like to do ? \n  1 : Enter a new automaton\n  2 : Determinize the automaton\n  3 : Complete the automaton\n  4 : Standardize the automaton\n  5 : Print out the complementary\n  6 : Read a word\n  7 : exit \n")
+    while not choice.isdigit() or choice<"1" or choice>"7" or len (choice)!=1:
         print("Invalid input, please enter an integer between 1 and 7")
-        choice=input("What would you like to do ? \n  1 : Enter a new automaton\n  2 : Determinize the automaton\n  3 : Complete the automaton\n  4 : Standardize the automaton\n  5 : Print out the complementary\n6 : Read a word\n7 : exit \n")
+        choice=input("What would you like to do ? \n  1 : Enter a new automaton\n  2 : Determinize the automaton\n  3 : Complete the automaton\n  4 : Standardize the automaton\n  5 : Print out the complementary\n  6 : Read a word\n  7 : exit \n")
     choice=int(choice)
     return choice
 

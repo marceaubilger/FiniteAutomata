@@ -19,6 +19,7 @@ class Automata:
             f"Transitions:\n" +
             "\n".join([f"  ({k[0]}, '{k[1]}') → {v}" for k, v in self.transitions.items()]))
     
+    
     def display(self):
         """
         Display the transition table of the finite automaton.
