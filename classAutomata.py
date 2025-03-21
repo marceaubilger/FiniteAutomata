@@ -2,10 +2,10 @@ import Deterministic as d
 class Automata:
 
     def __init__(self,states,alphabet,transitions,initials,finals,howMany):
-        self.alphabet=alphabet              #list of letters
+        self.alphabet=alphabet              #set of letters
         self.states=states                  #list of states 
-        self.initials=initials              #list of initials state
-        self.finals=finals                  #list of final state
+        self.initials=initials              #set of initials state
+        self.finals=finals                  #set of final state
         self.transitions=transitions        #dictionnary of transitions
         self.HowManyInitials=howMany        #number of initials states    
     
@@ -79,16 +79,29 @@ class Automata:
 
 
 def ReadWord(automata,word):
-   if d.is_deterministic(automata)==True:
-        q=automata.initials
-        while word!="":
+
+    if d.is_deterministic(automata)==False:
+        determinizedAutomata=d.DeterminizeAutomata(automata)
+        while d.is_deterministic(determinizedAutomata) != True:
+            determinizedAutomata=d.DeterminizeAutomata(determinizedAutomata)
+    else:
+        determinizedAutomata=automata
+
+    q=determinizedAutomata.initials
+    while word!="":
+        try :
+            q=determinizedAutomata.transitions[(q[0],word[0])]
+            word=word[1:]
+        except KeyError:
+
             try :
-                q=automata.transitions[(q[0],word[0])]
+                q=determinizedAutomata.transitions[(q[0],'ε')]
                 word=word[1:]
-            except KeyError:
+            except KeyError: 
                 return False
+            return False
 
         
-        if q in automata.finals:
-           return True
-        return False
+    if q in determinizedAutomata.finals:
+       return True
+    return False
