@@ -5,6 +5,7 @@ import Standard as s
 import Complete as O
 import Complementary as inverse
 import menu as m
+import os
 
 
 # text=r.readFileToDictionary("Automaton 23 -44/Automaton31.txt")
@@ -39,4 +40,14 @@ import menu as m
 # complement=inverse.Complementary(automata)
 # print(complement)
 
+
+"""Just renaming automoaton files to match the pattern
+
+folder = "Automaton"
+for file_name in os.listdir(folder):
+    if not(file_name.endswith(".txt")):
+        source = os.path.join(folder, file_name)
+        destination = os.path.join(folder, f"{file_name}.txt")
+        os.rename(source, destination)
+"""
 m.Menu()

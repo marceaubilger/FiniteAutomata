@@ -6,62 +6,80 @@ import Complete as O
 import Complementary as inverse
 
 def getFIleFromInput(val):
-    if val<23 and val>0:
-        filepath="Automaton"+str(val)
-        return  filepath
-    
-    if val<45 and val>0:
-        filepath="Automaton 23 -44/Automaton"+str(val)+".txt"
+    if val>=1 and val<=44:
+        filepath="Automaton/Automaton"+str(val)+".txt"
         return  filepath
     print("Invalid automaton number")
     return 0
 
+def choseAutomaton():
+    val=input("Enter the number of the automaton : \n")
+    while not val.isdigit() or val<"1" or val>"44":
+        print("Invalid input, please enter an integer between 1 and 44")
+        val=input("Enter the number of the automaton : \n")
+    val=int(val)
+    return val
+
+def choseOption():
+    choice=input("What would you like to do ? \n  1 : Enter a new automaton\n  2 : Determinize the automaton\n  3 : Complete the automaton\n  4 : Standardize the automaton\n  5 : Print out the complementary\n  6 : exit \n")
+    while not choice.isdigit() or choice<"1" or choice>"6" or len (choice)!=1:
+        print("Invalid input, please enter an integer between 1 and 6")
+        choice=input("What would you like to do ? \n  1 : Enter a new automaton\n  2 : Determinize the automaton\n  3 : Complete the automaton\n  4 : Standardize the automaton\n  5 : Print out the complementary\n  6 : exit \n")
+    choice=int(choice)
+    return choice
 
 def Menu():
-
-    val=int(input("Enter the number of the automaton : \n"))
+    val=choseAutomaton()
     filepath=getFIleFromInput(val)
     if filepath!=0:
-        automatatxt=r.readFileToDictionary(filepath)
-        automata=r.CreateAutomata(automatatxt)
-        print(automata)
+        automata=r.readFileToDictionary(filepath)
+        automata= r.CreateAutomata(automata)
+        automata.display()
         DoStuffWithAutomata(automata)
 
 
 def DoStuffWithAutomata(automata):
-    choice=int(input("\nWhat would you like to do : \n1 : Enter a new automaton\n2 : Determinize the automaton\n3 : Complete the automaton\n4 : Standardize the automaton\n5 : Read a word :\n6 : exit\n")
-    )
-    if choice==1:
-        Menu()
-    if choice==2:
-        determinizedAutomata=d.DeterminizeAutomata(automata)
-        while d.is_deterministic(determinizedAutomata) != True:
-            determinizedAutomata=d.DeterminizeAutomata
-        print("Here is the determinized automaton : \n")
-        print(determinizedAutomata)
-        DoStuffWithAutomata(automata)
+    choice=choseOption()
+    while not(choice<1 or choice>5):
+        if choice==1:
+            val=choseAutomaton()
+            filepath=getFIleFromInput(val)
+            if filepath!=0:
+                automata=r.readFileToDictionary(filepath)
+                automata= r.CreateAutomata(automata)
+                automata.display()
+        if choice==2:
+            if d.is_deterministic(automata):
+                print("The automata is already deterministic")
+            else:
+                determinizedAutomata=d.DeterminizeAutomata(automata)
+                while d.is_deterministic(determinizedAutomata) != True:
+                    determinizedAutomata=d.DeterminizeAutomata(determinizedAutomata)
+                print("Here is the determinized automaton : \n")
+                determinizedAutomata.display()
 
-    if choice==3:
-        complete_automata=O.CompleteAutomata(automata)
-        print("Here is the complete automata : \n")
-        print(complete_automata)
-        DoStuffWithAutomata(automata)
-    
-    if choice==4:
-        if s.isStandard(automata):
-            print("The automata is already standard\n")
-        else:
-            standardizedAutomata=s.Standardize(automata)
-            print(standardizedAutomata)
-        DoStuffWithAutomata(automata)
+        if choice==3:
+            if O.IsComplete(automata):
+                print("The automata is already complete\n")
+            else: 
+                complete_automata=O.CompleteAutomata(automata)
+                print("Here is the complete automata : \n")
+                complete_automata.display()
 
-    if choice==5:
-        print("Input a word :")
-        word=input()
-        print(c.ReadWord(automata,word))
-        DoStuffWithAutomata(automata)
-
+        if choice==4:
+            if s.isStandard(automata):
+                print("The automata is already standard\n")
+            else:
+                standardizedAutomata=s.Standardize(automata)
+                print("Here is the standardized automata : \n")
+                standardizedAutomata.display()
+        
+        if choice==5:
+            complementaryAutomata=inverse.Complementary(automata)
+            print("Here is the complementary automata : \n")
+            complementaryAutomata.display()
+        
+        choice=choseOption()
     if choice==6:
-        exit()
-            
+        print("Goodbye")
     
