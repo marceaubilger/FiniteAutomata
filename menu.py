@@ -22,13 +22,14 @@ def Menu():
     val=int(input("Enter the number of the automaton : \n"))
     filepath=getFIleFromInput(val)
     if filepath!=0:
-        automata=r.readFileToDictionary(filepath)
+        automatatxt=r.readFileToDictionary(filepath)
+        automata=r.CreateAutomata(automatatxt)
         print(automata)
         DoStuffWithAutomata(automata)
 
 
 def DoStuffWithAutomata(automata):
-    choice=int(input("What would you like to do : \n1 : Enter a new automaton\n2 : Determinize the automaton\n3 : Complete the automaton\n4 : Standardize the automaton\n5 : exit :\n")
+    choice=int(input("\nWhat would you like to do : \n1 : Enter a new automaton\n2 : Determinize the automaton\n3 : Complete the automaton\n4 : Standardize the automaton\n5 : Read a word :\n6 : exit\n")
     )
     if choice==1:
         Menu()
@@ -55,6 +56,12 @@ def DoStuffWithAutomata(automata):
         DoStuffWithAutomata(automata)
 
     if choice==5:
+        print("Input a word :")
+        word=input()
+        print(c.ReadWord(automata,word))
+        DoStuffWithAutomata(automata)
+
+    if choice==6:
         exit()
             
     
