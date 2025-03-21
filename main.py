@@ -5,6 +5,7 @@ import Standard as s
 import Complete as O
 import Complementary as inverse
 import menu as m
+import os
 
 
 # text=r.readFileToDictionary("Automaton 23 -44/Automaton31.txt")
@@ -38,5 +39,6 @@ import menu as m
 # print("\nComplementing the automaton : \n")
 # complement=inverse.Complementary(automata)
 # print(complement)
+
 
 m.Menu()
