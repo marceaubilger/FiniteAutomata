@@ -79,13 +79,14 @@ class Automata:
 
 
 def ReadWord(automata,word):
+    
     if d.is_deterministic(automata)==False:
         determinizedAutomata=d.DeterminizeAutomata(automata)
         while d.is_deterministic(determinizedAutomata) != True:
             determinizedAutomata=d.DeterminizeAutomata(determinizedAutomata)
     else:
         determinizedAutomata=automata
-        
+
     q=determinizedAutomata.initials
     while word!="":
         try :
