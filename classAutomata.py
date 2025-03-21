@@ -1,4 +1,5 @@
 import Deterministic as d
+import Deterministic as d
 class Automata:
 
     def __init__(self,states,alphabet,transitions,initials,finals,howMany):
