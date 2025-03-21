@@ -13,7 +13,6 @@ print("Initial automaton : \n")
 automata=r.CreateAutomata(text)
 
 print(automata)
-print("\n")
 
 automata.display()
 # 
