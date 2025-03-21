@@ -41,13 +41,4 @@ import os
 # print(complement)
 
 
-"""Just renaming automoaton files to match the pattern
-
-folder = "Automaton"
-for file_name in os.listdir(folder):
-    if not(file_name.endswith(".txt")):
-        source = os.path.join(folder, file_name)
-        destination = os.path.join(folder, f"{file_name}.txt")
-        os.rename(source, destination)
-"""
 m.Menu()
