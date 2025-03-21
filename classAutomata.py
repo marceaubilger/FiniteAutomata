@@ -1,3 +1,4 @@
+import Deterministic as d
 class Automata:
 
     def __init__(self,states,alphabet,transitions,initials,finals,howMany):
@@ -75,3 +76,19 @@ class Automata:
         
         # Print the transition table with '|' as the column separator and each row on a new line
         print(str(trans).replace("]]", "|").replace("[[","").replace(",", "|").replace("'", "").replace("[", "\n").replace("]", ""))
+
+
+def ReadWord(automata,word):
+   if d.is_deterministic(automata)==True:
+        q=automata.initials
+        while word!="":
+            try :
+                q=automata.transitions[(q[0],word[0])]
+                word=word[1:]
+            except KeyError:
+                return False
+
+        
+        if q in automata.finals:
+           return True
+        return False
