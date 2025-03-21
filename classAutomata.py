@@ -79,16 +79,22 @@ class Automata:
 
 
 def ReadWord(automata,word):
-   if d.is_deterministic(automata)==True:
-        q=automata.initials
-        while word!="":
-            try :
-                q=automata.transitions[(q[0],word[0])]
-                word=word[1:]
-            except KeyError:
-                return False
+    if d.is_deterministic(automata)==False:
+        determinizedAutomata=d.DeterminizeAutomata(automata)
+        while d.is_deterministic(determinizedAutomata) != True:
+            determinizedAutomata=d.DeterminizeAutomata(determinizedAutomata)
+    else:
+        determinizedAutomata=automata
+        
+    q=determinizedAutomata.initials
+    while word!="":
+        try :
+            q=determinizedAutomata.transitions[(q[0],word[0])]
+            word=word[1:]
+        except KeyError:
+            return False
 
         
-        if q in automata.finals:
-           return True
-        return False
+    if q in determinizedAutomata.finals:
+       return True
+    return False
