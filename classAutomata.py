@@ -8,7 +8,9 @@ class Automata:
         self.initials=initials              #set of initials state
         self.finals=finals                  #set of final state
         self.transitions=transitions        #dictionnary of transitions
-        self.HowManyInitials=howMany        #number of initials states    
+        self.HowManyInitials=howMany        #number of initials states  
+        self.HaveEpsilonTransitions = epsilonTransitions  # Check if there are any epsilon transitions (boolean)
+        self.EpsilonClosures = closures     #Dictionnary of all Epsilon-closures
     
     def __str__(self):
      return (f"Alphabet: {self.alphabet}\n"
