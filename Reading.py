@@ -12,6 +12,13 @@ def readFileToDictionary(file_name):
 def CreateAutomata(text):
     
     alphabet=list(text[1].strip())
+    closures = {}
+
+    if alphabet[-1] == "ε":
+        EpsilonTransitions = True
+        alphabet.pop(-1)
+    else:
+        EpsilonTransitions = False
     
     states =["."]*int(text[2].strip())
     for s in range(0,int(text[2].strip())):
@@ -36,6 +43,33 @@ def CreateAutomata(text):
             transition_dict[(state, symbol)]+=next_state  # Add to existing set
         else:
             transition_dict[(state, symbol)] = next_state  # Create new set
+
+    if EpsilonTransitions:
+        closures = epsilon_closure_all(states, transition_dict)
     
-    automata=c.Automata(states,alphabet,transition_dict,initials,finals,HowManyInitials)
+    automata = c.Automata(states, alphabet, transition_dict, initials, finals, HowManyInitials, EpsilonTransitions, closures)
     return automata
+
+
+# Find the epsilon closure of a State
+def epsilon_closure(state, transition_dict):
+    """Compute the epsilon-closure of a given state in the automaton."""
+    closure = set()  # Set to store the closure
+    stack = [state]  # Stack for DFS traversal
+
+    while stack:
+        current_state = stack.pop()
+        if current_state not in closure:
+            closure.add(current_state)
+            # Check for epsilon (ε) transitions
+            if (current_state, "ε") in transition_dict:
+                for next_state in transition_dict[(current_state, "ε")]:
+                    stack.append(next_state)
+
+    return closure
+
+
+# Find all epsilon closures of the automata
+def epsilon_closure_all(states, transition_dict):
+    """Compute the epsilon-closure for all states in the automaton."""
+    return {state: epsilon_closure(state, transition_dict) for state in states}
