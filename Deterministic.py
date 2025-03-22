@@ -7,7 +7,7 @@ def is_deterministic(automaton):
     @return: True if deterministic, False otherwise.
     """
     if automaton.HaveEpsilonTransitions:
-    return False
+        return False
 
     # Condition 1: There must be exactly one initial state
     if automaton.HowManyInitials != 1:
