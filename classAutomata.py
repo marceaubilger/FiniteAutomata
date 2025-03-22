@@ -82,7 +82,7 @@ class Automata:
         print(str(trans).replace("]]", "|").replace("[[","").replace(",", "|").replace("'", "").replace("[", "\n").replace("]", ""))
 
     def copy(self):
-        return Automata(self.states.copy(), self.alphabet.copy(), self.transitions.copy(), self.initials.copy(), self.finals.copy(), self.HowManyInitials)
+        return Automata(self.states.copy(), self.alphabet.copy(), self.transitions.copy(), self.initials.copy(), self.finals.copy(), self.HowManyInitials, self.HaveEpsilonTransitions, self.EpsilonClosures.copy())
 
 def ReadWord(automata,word):
 
