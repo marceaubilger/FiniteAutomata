@@ -56,4 +56,4 @@ def CompleteAutomata(automaton):
                 if (state, letter) not in new_automaton.transitions:
                     new_transitions[(state, letter)] = "P"
         # Return the complete deterministic finite automaton
-        return c.Automata(new_states, new_automaton.alphabet, new_transitions, new_automaton.initials, new_automaton.finals, new_automaton.HowManyInitials)
+        return c.Automata(new_states, new_automaton.alphabet, new_transitions, new_automaton.initials, new_automaton.finals, new_automaton.HowManyInitials, False, {})
