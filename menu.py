@@ -14,7 +14,7 @@ def getFIleFromInput(val):
 
 def choseAutomaton():
     val=input("Enter the number of the automaton : ")
-    while not val.isdigit() or val<"1" or val>"44":
+    while not val.isdigit() or int(val)<1 or int(val)>44:
         print("Invalid input, please enter an integer between 1 and 44")
         val=input("Enter the number of the automaton : ")
     val=int(val)

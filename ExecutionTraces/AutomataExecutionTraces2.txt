@@ -1,0 +1,16 @@
+Execution trace 2
+
+```
+Enter the number of the automaton : 2
+    | a| 
+↔| 0| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+
+```

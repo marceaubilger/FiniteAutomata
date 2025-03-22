@@ -1,0 +1,20 @@
+Execution trace 39
+
+```
+
+Enter the number of the automaton : 39
+    | a| b| 
+→| 0| 1| 2| 
+↔| 1| 1| 2| 
+ | 2| 0| 1| 
+→| 3| 1| 2|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+
+```

@@ -40,5 +40,4 @@ import os
 # complement=inverse.Complementary(automata)
 # print(complement)
 
-
 m.Menu()

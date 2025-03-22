@@ -1,0 +1,21 @@
+Execution trace 25
+
+```
+
+nter the number of the automaton : 25
+    | a | b | c | d | 
+←| 0|   |   |   |   | 
+→| 1| 12| 3 | 4 | 0 | 
+ | 2|   | 23| 4 | 0 | 
+ | 3|   |   | 34| 0 | 
+ | 4|   |   |   | 40|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+
+```
