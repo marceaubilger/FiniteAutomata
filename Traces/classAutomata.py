@@ -1,5 +1,5 @@
 import Deterministic as d
-
+import Deterministic as d
 class Automata:
 
     def __init__(self,states,alphabet,transitions,initials,finals,howMany):
@@ -79,8 +79,6 @@ class Automata:
         # Print the transition table with '|' as the column separator and each row on a new line
         print(str(trans).replace("]]", "|").replace("[[","").replace(",", "|").replace("'", "").replace("[", "\n").replace("]", ""))
 
-    def copy(self):
-        return Automata(self.states.copy(), self.alphabet.copy(), self.transitions.copy(), self.initials.copy(), self.finals.copy(), self.HowManyInitials)
 
 def ReadWord(automata,word):
 
@@ -109,4 +107,3 @@ def ReadWord(automata,word):
     if q in determinizedAutomata.finals:
        return True
     return False
-

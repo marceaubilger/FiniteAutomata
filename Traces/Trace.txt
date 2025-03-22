@@ -1,0 +1,3639 @@
+Enter the number of the automaton : 1
+    | a| 
+↔| 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| 
+↔| 0| P| 
+ | P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| 
+→| 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 2
+    | a| 
+↔| 0| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+The automata is already complete
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| 
+→| 0| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 3
+    | a| 
+→| 0| 1| 
+←| 1|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| 
+→| 0| 1| 
+←| 1| P| 
+ | P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| 
+↔| 0| 1| 
+ | 1|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 4
+    | a| 
+→| 0| 1| 
+ | 1|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| 
+→| 0| 1| 
+ | 1| P| 
+ | P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| 
+↔| 0| 1| 
+←| 1|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 5
+    | a| b| 
+ | 0| 0| 0| 
+→| 1| 2| 0| 
+←| 2|  |  | 
+→| 3| 0| 4| 
+←| 4|  |  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+    | a| b| 
+ | 0| 0| 0| 
+ | 1| 2| 0| 
+←| 2|  |  | 
+ | 3| 0| 4| 
+←| 4|  |  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is not deterministic.
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| 
+ | 0| 0| 0| 
+ | 1| 2| 0| 
+←| 2| P| P| 
+ | 3| 0| 4| 
+←| 4| P| P| 
+ | P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+Here is the standardized automata : 
+
+    | a| b| 
+→| I| 0| 4| 
+ | 0| 0| 0| 
+ | 1| 2| 0| 
+←| 2|  |  | 
+ | 3| 0| 4| 
+←| 4|  |  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+←| 0| 0| 0| 
+↔| 1| 2| 0| 
+ | 2|  |  | 
+↔| 3| 0| 4| 
+ | 4|  |  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 6
+    | a| b| 
+←| 0|  |  | 
+→| 1| 2|  | 
+←| 2|  |  | 
+→| 3|  | 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+    | a| b| 
+←| 0|  |  | 
+ | 1| 2|  | 
+←| 2|  |  | 
+ | 3|  | 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is not deterministic.
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| 
+←| 0| P| P| 
+ | 1| 2| P| 
+←| 2| P| P| 
+ | 3| P| 0| 
+ | P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+Here is the standardized automata : 
+
+    | a| b| 
+→| I| 2| 0| 
+←| 0|  |  | 
+ | 1| 2|  | 
+←| 2|  |  | 
+ | 3|  | 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+ | 0|  |  | 
+↔| 1| 2|  | 
+ | 2|  |  | 
+↔| 3|  | 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 7
+    | a | 
+←| 0|   | 
+→| 1| 10|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | 
+←| 0 |   | 
+→| 1 | 10| 
+←| 10| 10|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | 
+←| 0 | P | 
+→| 1 | 10| 
+ | 10| P | 
+ | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | 
+ | 0 |   | 
+↔| 1 | 10| 
+←| 10|   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 8
+    | a| 
+←| 0| 0| 
+→| 1| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+The automata is already complete
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| 
+ | 0| 0| 
+↔| 1| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 9
+    | a| b| 
+←| 0| 2|  | 
+↔| 1| 2|  | 
+ | 2| 3| 3| 
+ | 3| 4|  | 
+ | 4| 5| 5| 
+ | 5| 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| 
+←| 0| 2| P| 
+↔| 1| 2| P| 
+ | 2| 3| 3| 
+ | 3| 4| P| 
+ | 4| 5| 5| 
+ | 5| 0| P| 
+ | P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+ | 0| 2|  | 
+→| 1| 2|  | 
+←| 2| 3| 3| 
+←| 3| 4|  | 
+←| 4| 5| 5| 
+←| 5| 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 10
+    | a| b| 
+↔| 0| 1|  | 
+ | 1| 2| 2| 
+ | 2| 3|  | 
+ | 3| 4| 4| 
+ | 4| 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| 
+↔| 0| 1| P| 
+ | 1| 2| 2| 
+ | 2| 3| P| 
+ | 3| 4| 4| 
+ | 4| 0| P| 
+ | P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+→| 0| 1|  | 
+←| 1| 2| 2| 
+←| 2| 3|  | 
+←| 3| 4| 4| 
+←| 4| 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 11
+    | a| b| 
+→| 0| 2| 3| 
+ | 1| 3| 3| 
+←| 2| 1| 0| 
+ | 3| 3| 3|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+The automata is already complete
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+↔| 0| 2| 3| 
+←| 1| 3| 3| 
+ | 2| 1| 0| 
+←| 3| 3| 3|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 12
+    | a| b| c| d| 
+ | 0|  | 0|  | 1| 
+↔| 1| 1|  | 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| d| 
+ | 0| P| 0| P| 1| 
+↔| 1| 1| P| 0| P| 
+ | P| P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| d| 
+←| 0|  | 0|  | 1| 
+→| 1| 1|  | 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 13
+    | a| 
+←| 0| 0| 
+→| 1| 2| 
+ | 2| 3| 
+←| 3| 4| 
+←| 4| 5| 
+←| 5| 6| 
+←| 6| 7| 
+←| 7| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+The automata is already complete
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| 
+ | 0| 0| 
+↔| 1| 2| 
+←| 2| 3| 
+ | 3| 4| 
+ | 4| 5| 
+ | 5| 6| 
+ | 6| 7| 
+ | 7| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 14
+    | a| b| c| d| 
+→| 0| 0| 2| 3| 1| 
+←| 1|  |  |  | 1| 
+ | 2|  | 2| 3| 1| 
+ | 3|  |  | 3| 1|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| d| 
+→| 0| 0| 2| 3| 1| 
+←| 1| P| P| P| 1| 
+ | 2| P| 2| 3| 1| 
+ | 3| P| P| 3| 1| 
+ | P| P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| d| 
+↔| 0| 0| 2| 3| 1| 
+ | 1|  |  |  | 1| 
+←| 2|  | 2| 3| 1| 
+←| 3|  |  | 3| 1|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 15
+    | a| b| c| d| 
+ | 0| 0|  |  |  | 
+→| 1| 1| 2| 3| 4| 
+ | 2| 0| 2| 3| 4| 
+ | 3| 0| 0| 3| 4| 
+←| 4| 0| 0| 0| 4|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| d| 
+ | 0| 0| P| P| P| 
+→| 1| 1| 2| 3| 4| 
+ | 2| 0| 2| 3| 4| 
+ | 3| 0| 0| 3| 4| 
+←| 4| 0| 0| 0| 4| 
+ | P| P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| d| 
+←| 0| 0|  |  |  | 
+↔| 1| 1| 2| 3| 4| 
+←| 2| 0| 2| 3| 4| 
+←| 3| 0| 0| 3| 4| 
+ | 4| 0| 0| 0| 4|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 16
+    | a | b | c | d | 
+←| 0|   |   |   |   | 
+→| 1| 12|   |   |   | 
+ | 2|   | 23|   |   | 
+ | 3|   |   | 34|   | 
+ | 4|   |   |   | 40|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | b | c | d | 
+←| 0 |   |   |   |   | 
+→| 1 | 12|   |   |   | 
+ | 2 |   | 23|   |   | 
+ | 3 |   |   | 34|   | 
+ | 4 |   |   |   | 40| 
+ | 12| 12| 23|   |   | 
+ | 23|   | 23| 34|   | 
+ | 34|   |   | 34| 40| 
+←| 40|   |   |   | 40|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | b | c | d | 
+←| 0 | P | P | P | P | 
+→| 1 | 12| P | P | P | 
+ | 2 | P | 23| P | P | 
+ | 3 | P | P | 34| P | 
+ | 4 | P | P | P | 40| 
+ | 12| P | P | P | P | 
+ | 23| P | P | P | P | 
+ | 34| P | P | P | P | 
+ | 40| P | P | P | P | 
+ | P | P | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | b | c | d | 
+ | 0 |   |   |   |   | 
+↔| 1 | 12|   |   |   | 
+←| 2 |   | 23|   |   | 
+←| 3 |   |   | 34|   | 
+←| 4 |   |   |   | 40| 
+←| 12|   |   |   |   | 
+←| 23|   |   |   |   | 
+←| 34|   |   |   |   | 
+←| 40|   |   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 17
+    | a | b | c | d | 
+ | 0|   |   |   |   | 
+→| 1| 12|   |   |   | 
+→| 2|   | 23|   |   | 
+→| 3|   |   | 34|   | 
+→| 4|   |   |   | 45| 
+←| 5| 0 | 0 | 0 | 0 |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+      |  a |  b |  c |  d | 
+ |  0 |    |    |    |    | 
+ |  1 |  12|    |    |    | 
+ |  2 |    |  23|    |    | 
+ |  3 |    |    |  34|    | 
+ |  4 |    |    |    |  45| 
+←|  5 |  0 |  0 |  0 |  0 | 
+ |  12|  12|  23|    |    | 
+ |  23|    |  23|  34|    | 
+ |  34|    |    |  34|  45| 
+←|  45|  0 |  0 |  0 | 450| 
+←| 450|  0 |  0 |  0 | 450|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is not deterministic.
+Automaton is deterministic.
+Here is the complete automata : 
+
+      | a | b | c | d | 
+ |  0 | P | P | P | P | 
+ |  1 | 12| P | P | P | 
+ |  2 | P | 23| P | P | 
+ |  3 | P | P | 34| P | 
+ |  4 | P | P | P | 45| 
+←|  5 | 0 | 0 | 0 | 0 | 
+ |  12| P | P | P | P | 
+ |  23| P | P | P | P | 
+ |  34| P | P | P | P | 
+←|  45| P | P | P | P | 
+←| 450| P | P | P | P | 
+ |  P | P | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+Here is the standardized automata : 
+
+      | a | b | c | d | 
+→|  I | 12| 23| 34| 45| 
+ |  0 |   |   |   |   | 
+ |  1 | 12|   |   |   | 
+ |  2 |   | 23|   |   | 
+ |  3 |   |   | 34|   | 
+ |  4 |   |   |   | 45| 
+←|  5 | 0 | 0 | 0 | 0 | 
+ |  12|   |   |   |   | 
+ |  23|   |   |   |   | 
+ |  34|   |   |   |   | 
+ |  45|   |   |   |   | 
+ | 450|   |   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+      | a | b | c | d | 
+←|  0 |   |   |   |   | 
+↔|  1 | 12|   |   |   | 
+↔|  2 |   | 23|   |   | 
+↔|  3 |   |   | 34|   | 
+↔|  4 |   |   |   | 45| 
+ |  5 | 0 | 0 | 0 | 0 | 
+←|  12|   |   |   |   | 
+←|  23|   |   |   |   | 
+←|  34|   |   |   |   | 
+←|  45|   |   |   |   | 
+←| 450|   |   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 18
+    | a| b| c| d| 
+←| 0|  |  |  |  | 
+→| 1| 2| 3| 4| 0| 
+ | 2| 2| 3| 4| 0| 
+ | 3|  | 3| 4| 0| 
+ | 4|  |  | 4| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| d| 
+←| 0| P| P| P| P| 
+→| 1| 2| 3| 4| 0| 
+ | 2| 2| 3| 4| 0| 
+ | 3| P| 3| 4| 0| 
+ | 4| P| P| 4| 0| 
+ | P| P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| d| 
+ | 0|  |  |  |  | 
+↔| 1| 2| 3| 4| 0| 
+←| 2| 2| 3| 4| 0| 
+←| 3|  | 3| 4| 0| 
+←| 4|  |  | 4| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 19
+    | a| 
+←| 0| 0| 
+→| 1| 2| 
+ | 2| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+The automata is already complete
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| 
+ | 0| 0| 
+↔| 1| 2| 
+←| 2| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 20
+    | a| b| c| d| 
+→| 0|  |  |  | 5| 
+→| 1| 2|  |  |  | 
+ | 2|  | 3|  |  | 
+ | 3|  |  | 4|  | 
+ | 4|  |  |  | 5| 
+←| 5|  |  |  |  | 
+→| 6| 2|  |  |  | 
+→| 7|  | 3|  |  | 
+→| 8|  |  | 4|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+    | a| b| c| d| 
+ | 0|  |  |  | 5| 
+ | 1| 2|  |  |  | 
+ | 2|  | 3|  |  | 
+ | 3|  |  | 4|  | 
+ | 4|  |  |  | 5| 
+←| 5|  |  |  |  | 
+ | 6| 2|  |  |  | 
+ | 7|  | 3|  |  | 
+ | 8|  |  | 4|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is not deterministic.
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| d| 
+ | 0| P| P| P| 5| 
+ | 1| 2| P| P| P| 
+ | 2| P| 3| P| P| 
+ | 3| P| P| 4| P| 
+ | 4| P| P| P| 5| 
+←| 5| P| P| P| P| 
+ | 6| 2| P| P| P| 
+ | 7| P| 3| P| P| 
+ | 8| P| P| 4| P| 
+ | P| P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+Here is the standardized automata : 
+
+    | a| b| c| d| 
+→| I| 2| 3| 4| 5| 
+ | 0|  |  |  | 5| 
+ | 1| 2|  |  |  | 
+ | 2|  | 3|  |  | 
+ | 3|  |  | 4|  | 
+ | 4|  |  |  | 5| 
+←| 5|  |  |  |  | 
+ | 6| 2|  |  |  | 
+ | 7|  | 3|  |  | 
+ | 8|  |  | 4|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| d| 
+↔| 0|  |  |  | 5| 
+↔| 1| 2|  |  |  | 
+←| 2|  | 3|  |  | 
+←| 3|  |  | 4|  | 
+←| 4|  |  |  | 5| 
+ | 5|  |  |  |  | 
+↔| 6| 2|  |  |  | 
+↔| 7|  | 3|  |  | 
+↔| 8|  |  | 4|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 21
+    | a| b| c| d| 
+ | 0|  |  |  | 1| 
+↔| 1| 2|  |  |  | 
+ | 2|  | 3|  |  | 
+ | 3|  |  | 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| d| 
+ | 0| P| P| P| 1| 
+↔| 1| 2| P| P| P| 
+ | 2| P| 3| P| P| 
+ | 3| P| P| 0| P| 
+ | P| P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| d| 
+←| 0|  |  |  | 1| 
+→| 1| 2|  |  |  | 
+←| 2|  | 3|  |  | 
+←| 3|  |  | 0|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 22
+    |  a |  b |  c |  d | 
+ | 0|    |    |    |  1 | 
+↔| 1| 302|    |    |    | 
+ | 2|    |  3 |    |    | 
+ | 3|    |    |  0 |    |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+      |  a |  b |  c |  d | 
+ |  0 |    |    |    |  1 | 
+↔|  1 | 302|    |    |    | 
+ |  2 |    |  3 |    |    | 
+ |  3 |    |    |  0 |    | 
+ | 302|    |  3 |  0 |  1 |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+      |  a |  b |  c |  d | 
+ |  0 |  P |  P |  P |  1 | 
+↔|  1 | 302|  P |  P |  P | 
+ |  2 |  P |  3 |  P |  P | 
+ |  3 |  P |  P |  0 |  P | 
+ | 302|  P |  P |  P |  P | 
+ |  P |  P |  P |  P |  P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+      |  a |  b |  c |  d | 
+←|  0 |    |    |    |  1 | 
+→|  1 | 302|    |    |    | 
+←|  2 |    |  3 |    |    | 
+←|  3 |    |    |  0 |    | 
+←| 302|    |    |    |    |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 23
+    | a| b| c| d| 
+←| 0|  |  |  | 0| 
+→| 1| 2|  |  |  | 
+ | 2| 2| 3|  |  | 
+ | 3|  | 3| 4|  | 
+ | 4|  |  | 4| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| d| 
+←| 0| P| P| P| 0| 
+→| 1| 2| P| P| P| 
+ | 2| 2| 3| P| P| 
+ | 3| P| 3| 4| P| 
+ | 4| P| P| 4| 0| 
+ | P| P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| d| 
+ | 0|  |  |  | 0| 
+↔| 1| 2|  |  |  | 
+←| 2| 2| 3|  |  | 
+←| 3|  | 3| 4|  | 
+←| 4|  |  | 4| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 24
+    | a| b| c| d| 
+←| 0|  |  |  | 0| 
+→| 1| 2| 3| 4| 0| 
+ | 2| 2| 3| 4| 0| 
+ | 3|  | 3| 4| 0| 
+ | 4|  |  | 4| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| d| 
+←| 0| P| P| P| 0| 
+→| 1| 2| 3| 4| 0| 
+ | 2| 2| 3| 4| 0| 
+ | 3| P| 3| 4| 0| 
+ | 4| P| P| 4| 0| 
+ | P| P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| d| 
+ | 0|  |  |  | 0| 
+↔| 1| 2| 3| 4| 0| 
+←| 2| 2| 3| 4| 0| 
+←| 3|  | 3| 4| 0| 
+←| 4|  |  | 4| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 25
+    | a | b | c | d | 
+←| 0|   |   |   |   | 
+→| 1| 12| 3 | 4 | 0 | 
+ | 2|   | 23| 4 | 0 | 
+ | 3|   |   | 34| 0 | 
+ | 4|   |   |   | 40|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | b | c | d | 
+←| 0 |   |   |   |   | 
+→| 1 | 12| 3 | 4 | 0 | 
+ | 2 |   | 23| 4 | 0 | 
+ | 3 |   |   | 34| 0 | 
+ | 4 |   |   |   | 40| 
+ | 12| 12| 32| 4 | 0 | 
+ | 23|   | 23| 43| 0 | 
+ | 34|   |   | 34| 04| 
+←| 40|   |   |   | 40| 
+ | 32|   | 23| 34| 0 | 
+ | 43|   |   | 34| 40| 
+←| 04|   |   |   | 40|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | b | c | d | 
+←| 0 | P | P | P | P | 
+→| 1 | 12| 3 | 4 | 0 | 
+ | 2 | P | 23| 4 | 0 | 
+ | 3 | P | P | 34| 0 | 
+ | 4 | P | P | P | 40| 
+ | 12| P | P | P | P | 
+ | 23| P | P | P | P | 
+ | 34| P | P | P | P | 
+ | 40| P | P | P | P | 
+ | 32| P | P | P | P | 
+ | 43| P | P | P | P | 
+ | 04| P | P | P | P | 
+ | P | P | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | b | c | d | 
+ | 0 |   |   |   |   | 
+↔| 1 | 12| 3 | 4 | 0 | 
+←| 2 |   | 23| 4 | 0 | 
+←| 3 |   |   | 34| 0 | 
+←| 4 |   |   |   | 40| 
+←| 12|   |   |   |   | 
+←| 23|   |   |   |   | 
+←| 34|   |   |   |   | 
+←| 40|   |   |   |   | 
+←| 32|   |   |   |   | 
+←| 43|   |   |   |   | 
+←| 04|   |   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 26
+    | a| b| 
+ | 0|  |  | 
+→| 1| 2| 2| 
+ | 2| 0| 3| 
+←| 3| 3| 3|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| 
+ | 0| P| P| 
+→| 1| 2| 2| 
+ | 2| 0| 3| 
+←| 3| 3| 3| 
+ | P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+←| 0|  |  | 
+↔| 1| 2| 2| 
+←| 2| 0| 3| 
+ | 3| 3| 3|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 27
+    | a| b| 
+←| 0| 0| 0| 
+→| 1| 2| 2| 
+ | 2|  | 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| 
+←| 0| 0| 0| 
+→| 1| 2| 2| 
+ | 2| P| 0| 
+ | P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+ | 0| 0| 0| 
+↔| 1| 2| 2| 
+←| 2|  | 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 28
+    | a | 
+←| 0| 4 | 
+→| 1| 24| 
+ | 2| 3 | 
+←| 3| 2 | 
+ | 4| 5 | 
+ | 5| 0 |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | 
+←| 0 | 4 | 
+→| 1 | 24| 
+ | 2 | 3 | 
+←| 3 | 2 | 
+ | 4 | 5 | 
+ | 5 | 0 | 
+ | 24| 35| 
+←| 35| 20| 
+←| 20| 34| 
+←| 34| 25| 
+ | 25| 30| 
+←| 30| 24|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | 
+←| 0 | 4 | 
+→| 1 | 24| 
+ | 2 | 3 | 
+←| 3 | 2 | 
+ | 4 | 5 | 
+ | 5 | 0 | 
+ | 24| P | 
+ | 35| P | 
+ | 20| P | 
+ | 34| P | 
+ | 25| P | 
+ | 30| P | 
+ | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | 
+ | 0 | 4 | 
+↔| 1 | 24| 
+←| 2 | 3 | 
+ | 3 | 2 | 
+←| 4 | 5 | 
+←| 5 | 0 | 
+←| 24|   | 
+←| 35|   | 
+←| 20|   | 
+←| 34|   | 
+←| 25|   | 
+←| 30|   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 29
+    | a | 
+←| 0| 4 | 
+→| 1| 24| 
+ | 2| 3 | 
+←| 3| 20| 
+ | 4| 35| 
+ | 5| 0 |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+        |   a  | 
+←|   0  |   4  | 
+→|   1  |   24 | 
+ |   2  |   3  | 
+←|   3  |   20 | 
+ |   4  |   35 | 
+ |   5  |   0  | 
+ |   24 |   35 | 
+←|   20 |   34 | 
+←|   35 |   20 | 
+←|   34 |  2035| 
+←|  2035|  3420| 
+←|  3420| 20354| 
+←| 20354| 34205| 
+←| 34205| 20354|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+        | a | 
+←|   0  | 4 | 
+→|   1  | 24| 
+ |   2  | 3 | 
+←|   3  | 20| 
+ |   4  | 35| 
+ |   5  | 0 | 
+ |   24 | P | 
+ |   20 | P | 
+ |   35 | P | 
+ |   34 | P | 
+ |  2035| P | 
+ |  3420| P | 
+ | 20354| P | 
+ | 34205| P | 
+ |   P  | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+        | a | 
+ |   0  | 4 | 
+↔|   1  | 24| 
+←|   2  | 3 | 
+ |   3  | 20| 
+←|   4  | 35| 
+←|   5  | 0 | 
+←|   24 |   | 
+←|   20 |   | 
+←|   35 |   | 
+←|   34 |   | 
+←|  2035|   | 
+←|  3420|   | 
+←| 20354|   | 
+←| 34205|   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 30
+    | a| 
+←| 0| 3| 
+→| 1| 2| 
+ | 2| 3| 
+←| 3| 4| 
+←| 4| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+The automata is already complete
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| 
+ | 0| 3| 
+↔| 1| 2| 
+←| 2| 3| 
+ | 3| 4| 
+ | 4| 0|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 31
+    | a | b | ε | 
+→| 0|   |   | 14| 
+ | 1| 2 |   | 3 | 
+ | 2| 3 | 1 |   | 
+ | 3|   | 3 | 7 | 
+ | 4|   | 5 |   | 
+ | 5|   | 6 |   | 
+ | 6|   |   | 47| 
+←| 7|   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | b | ε | 
+→| 0 |   |   | 14| 
+ | 1 | 2 |   | 3 | 
+ | 2 | 3 | 1 |   | 
+ | 3 |   | 3 | 7 | 
+ | 4 |   | 5 |   | 
+ | 5 |   | 6 |   | 
+ | 6 |   |   | 47| 
+←| 7 |   |   |   | 
+ | 14| 2 | 5 | 3 | 
+←| 47|   | 5 |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | b | ε | 
+→| 0 | P | P | 14| 
+ | 1 | 2 | P | 3 | 
+ | 2 | 3 | 1 | P | 
+ | 3 | P | 3 | 7 | 
+ | 4 | P | 5 | P | 
+ | 5 | P | 6 | P | 
+ | 6 | P | P | 47| 
+←| 7 | P | P | P | 
+ | 14| P | P | P | 
+ | 47| P | P | P | 
+ | P | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | b | ε | 
+↔| 0 |   |   | 14| 
+←| 1 | 2 |   | 3 | 
+←| 2 | 3 | 1 |   | 
+←| 3 |   | 3 | 7 | 
+←| 4 |   | 5 |   | 
+←| 5 |   | 6 |   | 
+←| 6 |   |   | 47| 
+ | 7 |   |   |   | 
+←| 14|   |   |   | 
+←| 47|   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 32
+     |  a  |  b  |  c  |  ε  | 
+→| 0 |     |     |     | 110 | 
+ | 1 |     |     |     |  26 | 
+ | 2 |     |     |     |  35 | 
+ | 3 |     |  4  |     |     | 
+ | 4 |     |     |     |  35 | 
+ | 5 |     |     |     |  8  | 
+ | 6 |  7  |     |     |     | 
+ | 7 |     |     |     |  8  | 
+ | 8 |     |     |  9  |     | 
+ | 9 |     |     |     |  21 | 
+ | 10|     |     |     | 1115| 
+ | 11|     |     |     | 1214| 
+ | 12|  13 |     |     |     | 
+ | 13|     |     |     | 1214| 
+ | 14|     |     |     |  17 | 
+ | 15|     |  16 |     |     | 
+ | 16|     |     |     |  17 | 
+ | 17|     |     |     | 1820| 
+ | 18|     |     |  19 |     | 
+ | 19|     |     |     | 1820| 
+ | 20|     |     |     |  21 | 
+←| 21|     |     |     |     |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+          |    a   |    b   |    c   |    ε   | 
+→|    0   |        |        |        |   110  | 
+ |    1   |        |        |        |    26  | 
+ |    2   |        |        |        |    35  | 
+ |    3   |        |    4   |        |        | 
+ |    4   |        |        |        |    35  | 
+ |    5   |        |        |        |    8   | 
+ |    6   |    7   |        |        |        | 
+ |    7   |        |        |        |    8   | 
+ |    8   |        |        |    9   |        | 
+ |    9   |        |        |        |    21  | 
+ |    10  |        |        |        |   1115 | 
+ |    11  |        |        |        |   1214 | 
+ |    12  |    13  |        |        |        | 
+ |    13  |        |        |        |   1214 | 
+ |    14  |        |        |        |    17  | 
+ |    15  |        |    16  |        |        | 
+ |    16  |        |        |        |    17  | 
+ |    17  |        |        |        |   1820 | 
+ |    18  |        |        |    19  |        | 
+ |    19  |        |        |        |   1820 | 
+ |    20  |        |        |        |    21  | 
+←|    21  |        |        |        |        | 
+ |   110  |        |        |        |   2610 | 
+ |    26  |    7   |        |        |    35  | 
+ |    35  |        |    4   |        |    8   | 
+ |   1115 |        |        |        |   268  | 
+←|   1214 |        |        |        |   2635 | 
+ |   1820 |        |        |    9   |  263510| 
+ |   2610 |    7   |        |        |  352610| 
+ |   268  |    7   |        |    9   |    35  | 
+ |   2635 |    7   |    4   |        |   358  | 
+ |  263510|    7   |    4   |        | 3582610| 
+ |  352610|    7   |    4   |        | 8352610| 
+ |   358  |        |    4   |    9   |    8   | 
+ | 3582610|    7   |    4   |    9   | 8352610| 
+ | 8352610|    7   |    4   |    9   | 8352610|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+          |  a  |  b  |  c  |  ε  | 
+→|    0   |  P  |  P  |  P  | 110 | 
+ |    1   |  P  |  P  |  P  |  26 | 
+ |    2   |  P  |  P  |  P  |  35 | 
+ |    3   |  P  |  4  |  P  |  P  | 
+ |    4   |  P  |  P  |  P  |  35 | 
+ |    5   |  P  |  P  |  P  |  8  | 
+ |    6   |  7  |  P  |  P  |  P  | 
+ |    7   |  P  |  P  |  P  |  8  | 
+ |    8   |  P  |  P  |  9  |  P  | 
+ |    9   |  P  |  P  |  P  |  21 | 
+ |    10  |  P  |  P  |  P  | 1115| 
+ |    11  |  P  |  P  |  P  | 1214| 
+ |    12  |  13 |  P  |  P  |  P  | 
+ |    13  |  P  |  P  |  P  | 1214| 
+ |    14  |  P  |  P  |  P  |  17 | 
+ |    15  |  P  |  16 |  P  |  P  | 
+ |    16  |  P  |  P  |  P  |  17 | 
+ |    17  |  P  |  P  |  P  | 1820| 
+ |    18  |  P  |  P  |  19 |  P  | 
+ |    19  |  P  |  P  |  P  | 1820| 
+ |    20  |  P  |  P  |  P  |  21 | 
+←|    21  |  P  |  P  |  P  |  P  | 
+ |   110  |  P  |  P  |  P  |  P  | 
+ |    26  |  P  |  P  |  P  |  P  | 
+ |    35  |  P  |  P  |  P  |  P  | 
+ |   1115 |  P  |  P  |  P  |  P  | 
+ |   1214 |  P  |  P  |  P  |  P  | 
+ |   1820 |  P  |  P  |  P  |  P  | 
+ |   2610 |  P  |  P  |  P  |  P  | 
+ |   268  |  P  |  P  |  P  |  P  | 
+ |   2635 |  P  |  P  |  P  |  P  | 
+ |  263510|  P  |  P  |  P  |  P  | 
+ |  352610|  P  |  P  |  P  |  P  | 
+ |   358  |  P  |  P  |  P  |  P  | 
+ | 3582610|  P  |  P  |  P  |  P  | 
+ | 8352610|  P  |  P  |  P  |  P  | 
+ |    P   |  P  |  P  |  P  |  P  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+          |  a  |  b  |  c  |  ε  | 
+↔|    0   |     |     |     | 110 | 
+←|    1   |     |     |     |  26 | 
+←|    2   |     |     |     |  35 | 
+←|    3   |     |  4  |     |     | 
+←|    4   |     |     |     |  35 | 
+←|    5   |     |     |     |  8  | 
+←|    6   |  7  |     |     |     | 
+←|    7   |     |     |     |  8  | 
+←|    8   |     |     |  9  |     | 
+←|    9   |     |     |     |  21 | 
+←|    10  |     |     |     | 1115| 
+←|    11  |     |     |     | 1214| 
+←|    12  |  13 |     |     |     | 
+←|    13  |     |     |     | 1214| 
+←|    14  |     |     |     |  17 | 
+←|    15  |     |  16 |     |     | 
+←|    16  |     |     |     |  17 | 
+←|    17  |     |     |     | 1820| 
+←|    18  |     |     |  19 |     | 
+←|    19  |     |     |     | 1820| 
+←|    20  |     |     |     |  21 | 
+ |    21  |     |     |     |     | 
+←|   110  |     |     |     |     | 
+←|    26  |     |     |     |     | 
+←|    35  |     |     |     |     | 
+←|   1115 |     |     |     |     | 
+←|   1214 |     |     |     |     | 
+←|   1820 |     |     |     |     | 
+←|   2610 |     |     |     |     | 
+←|   268  |     |     |     |     | 
+←|   2635 |     |     |     |     | 
+←|  263510|     |     |     |     | 
+←|  352610|     |     |     |     | 
+←|   358  |     |     |     |     | 
+←| 3582610|     |     |     |     | 
+←| 8352610|     |     |     |     |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 33
+     | a | b | c | ε | 
+→| 0 |   |   |   | 17| 
+ | 1 |   |   |   | 24| 
+ | 2 | 3 |   |   |   | 
+ | 3 |   |   |   | 5 | 
+ | 4 |   | 4 |   | 5 | 
+ | 5 |   |   | 6 |   | 
+ | 6 |   |   |   | 12| 
+ | 7 |   |   |   | 89| 
+ | 8 | 8 |   |   | 11| 
+ | 9 |   | 10|   |   | 
+ | 10|   |   |   | 11| 
+ | 11|   |   | 11| 12| 
+←| 12|   |   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+        |   a  |   b  |   c  |   ε  | 
+→|   0  |      |      |      |   17 | 
+ |   1  |      |      |      |   24 | 
+ |   2  |   3  |      |      |      | 
+ |   3  |      |      |      |   5  | 
+ |   4  |      |   4  |      |   5  | 
+ |   5  |      |      |   6  |      | 
+ |   6  |      |      |      |   12 | 
+ |   7  |      |      |      |   89 | 
+ |   8  |   8  |      |      |   11 | 
+ |   9  |      |   10 |      |      | 
+ |   10 |      |      |      |   11 | 
+ |   11 |      |      |   11 |   12 | 
+←|   12 |      |      |      |      | 
+ |   17 |      |      |      |  2489| 
+ |   24 |   3  |   4  |      |   5  | 
+ |   89 |   8  |   10 |      |   1  | 
+ |  2489|   38 |  410 |      |   51 | 
+ |  410 |      |   4  |      | 52417| 
+ |   51 |      |      |   6  |   24 | 
+ |   38 |   8  |      |      |   51 | 
+ | 52417|   3  |   4  |   6  | 52489| 
+ | 52489|   38 |  410 |   6  |   51 |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+        | a | b | c | ε | 
+→|   0  | P | P | P | 17| 
+ |   1  | P | P | P | 24| 
+ |   2  | 3 | P | P | P | 
+ |   3  | P | P | P | 5 | 
+ |   4  | P | 4 | P | 5 | 
+ |   5  | P | P | 6 | P | 
+ |   6  | P | P | P | 12| 
+ |   7  | P | P | P | 89| 
+ |   8  | 8 | P | P | 11| 
+ |   9  | P | 10| P | P | 
+ |   10 | P | P | P | 11| 
+ |   11 | P | P | 11| 12| 
+←|   12 | P | P | P | P | 
+ |   17 | P | P | P | P | 
+ |   24 | P | P | P | P | 
+ |   89 | P | P | P | P | 
+ |  2489| P | P | P | P | 
+ |  410 | P | P | P | P | 
+ |   51 | P | P | P | P | 
+ |   38 | P | P | P | P | 
+ | 52417| P | P | P | P | 
+ | 52489| P | P | P | P | 
+ |   P  | P | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+        | a | b | c | ε | 
+↔|   0  |   |   |   | 17| 
+←|   1  |   |   |   | 24| 
+←|   2  | 3 |   |   |   | 
+←|   3  |   |   |   | 5 | 
+←|   4  |   | 4 |   | 5 | 
+←|   5  |   |   | 6 |   | 
+←|   6  |   |   |   | 12| 
+←|   7  |   |   |   | 89| 
+←|   8  | 8 |   |   | 11| 
+←|   9  |   | 10|   |   | 
+←|   10 |   |   |   | 11| 
+←|   11 |   |   | 11| 12| 
+ |   12 |   |   |   |   | 
+←|   17 |   |   |   |   | 
+←|   24 |   |   |   |   | 
+←|   89 |   |   |   |   | 
+←|  2489|   |   |   |   | 
+←|  410 |   |   |   |   | 
+←|   51 |   |   |   |   | 
+←|   38 |   |   |   |   | 
+←| 52417|   |   |   |   | 
+←| 52489|   |   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 34
+    | a | b | ε | 
+→| 0|   |   | 14| 
+ | 1| 2 |   | 2 | 
+ | 2|   | 3 |   | 
+ | 3|   |   | 26| 
+ | 4|   | 5 |   | 
+ | 5|   |   | 46| 
+←| 6|   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | b | ε | 
+→| 0 |   |   | 14| 
+ | 1 | 2 |   | 2 | 
+ | 2 |   | 3 |   | 
+ | 3 |   |   | 26| 
+ | 4 |   | 5 |   | 
+ | 5 |   |   | 46| 
+←| 6 |   |   |   | 
+ | 14| 2 | 5 | 2 | 
+←| 26|   | 3 |   | 
+←| 46|   | 5 |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | b | ε | 
+→| 0 | P | P | 14| 
+ | 1 | 2 | P | 2 | 
+ | 2 | P | 3 | P | 
+ | 3 | P | P | 26| 
+ | 4 | P | 5 | P | 
+ | 5 | P | P | 46| 
+←| 6 | P | P | P | 
+ | 14| P | P | P | 
+ | 26| P | P | P | 
+ | 46| P | P | P | 
+ | P | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | b | ε | 
+↔| 0 |   |   | 14| 
+←| 1 | 2 |   | 2 | 
+←| 2 |   | 3 |   | 
+←| 3 |   |   | 26| 
+←| 4 |   | 5 |   | 
+←| 5 |   |   | 46| 
+ | 6 |   |   |   | 
+←| 14|   |   |   | 
+←| 26|   |   |   | 
+←| 46|   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 35
+     | a | b | ε | 
+→| 0 |   |   | 14| 
+ | 1 | 2 |   |   | 
+ | 2 |   | 3 |   | 
+ | 3 |   |   | 10| 
+ | 4 |   |   | 58| 
+ | 5 | 6 |   |   | 
+ | 6 |   | 7 |   | 
+ | 7 |   |   | 58| 
+ | 8 | 9 |   |   | 
+ | 9 |   |   | 10| 
+←| 10|   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | b | ε | 
+→| 0 |   |   | 14| 
+ | 1 | 2 |   |   | 
+ | 2 |   | 3 |   | 
+ | 3 |   |   | 10| 
+ | 4 |   |   | 58| 
+ | 5 | 6 |   |   | 
+ | 6 |   | 7 |   | 
+ | 7 |   |   | 58| 
+ | 8 | 9 |   |   | 
+ | 9 |   |   | 10| 
+←| 10|   |   |   | 
+ | 14| 2 |   | 58| 
+ | 58| 69|   |   | 
+ | 69|   | 7 | 10|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | b | ε | 
+→| 0 | P | P | 14| 
+ | 1 | 2 | P | P | 
+ | 2 | P | 3 | P | 
+ | 3 | P | P | 10| 
+ | 4 | P | P | 58| 
+ | 5 | 6 | P | P | 
+ | 6 | P | 7 | P | 
+ | 7 | P | P | 58| 
+ | 8 | 9 | P | P | 
+ | 9 | P | P | 10| 
+←| 10| P | P | P | 
+ | 14| P | P | P | 
+ | 58| P | P | P | 
+ | 69| P | P | P | 
+ | P | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | b | ε | 
+↔| 0 |   |   | 14| 
+←| 1 | 2 |   |   | 
+←| 2 |   | 3 |   | 
+←| 3 |   |   | 10| 
+←| 4 |   |   | 58| 
+←| 5 | 6 |   |   | 
+←| 6 |   | 7 |   | 
+←| 7 |   |   | 58| 
+←| 8 | 9 |   |   | 
+←| 9 |   |   | 10| 
+ | 10|   |   |   | 
+←| 14|   |   |   | 
+←| 58|   |   |   | 
+←| 69|   |   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 36
+    | a | b | 
+→| 0| 1 | 12| 
+←| 1|   | 02| 
+↔| 2| 01|   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+      |  a |  b | 
+ |  0 |  1 |  12| 
+←|  1 |    |  02| 
+←|  2 |  01|    | 
+←|  12|  01|  02| 
+↔|  02|  10|  12| 
+←|  01|  1 | 120| 
+←|  10|  1 | 021| 
+←| 120|  01| 021| 
+←| 021|  10| 120|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is not deterministic.
+Automaton is deterministic.
+Here is the complete automata : 
+
+      | a | b | 
+ |  0 | 1 | 12| 
+←|  1 | P | 02| 
+←|  2 | 01| P | 
+←|  12| P | P | 
+↔|  02| P | P | 
+←|  01| P | P | 
+←|  10| P | P | 
+←| 120| P | P | 
+←| 021| P | P | 
+ |  P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+Here is the standardized automata : 
+
+      | a | b | 
+→|  I | 01| 12| 
+ |  0 | 1 | 12| 
+←|  1 |   | 02| 
+←|  2 | 01|   | 
+ |  12|   |   | 
+ |  02|   |   | 
+ |  01|   |   | 
+ |  10|   |   | 
+ | 120|   |   | 
+ | 021|   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+      | a | b | 
+↔|  0 | 1 | 12| 
+ |  1 |   | 02| 
+→|  2 | 01|   | 
+←|  12|   |   | 
+←|  02|   |   | 
+←|  01|   |   | 
+←|  10|   |   | 
+←| 120|   |   | 
+←| 021|   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 37
+    | a| b| 
+↔| 0| 1| 3| 
+←| 1| 2| 4| 
+←| 2|  | 0| 
+←| 3| 1| 0| 
+←| 4| 1|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| 
+↔| 0| 1| 3| 
+←| 1| 2| 4| 
+←| 2| P| 0| 
+←| 3| 1| 0| 
+←| 4| 1| P| 
+ | P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+→| 0| 1| 3| 
+ | 1| 2| 4| 
+ | 2|  | 0| 
+ | 3| 1| 0| 
+ | 4| 1|  |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 38
+    | a| b| 
+↔| 0| 1| 3| 
+←| 1| 1| 2| 
+←| 2| 3| 3| 
+←| 3| 3| 3|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+The automata is already complete
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+→| 0| 1| 3| 
+ | 1| 1| 2| 
+ | 2| 3| 3| 
+ | 3| 3| 3|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 39
+    | a| b| 
+→| 0| 1| 2| 
+↔| 1| 1| 2| 
+ | 2| 0| 1| 
+→| 3| 1| 2|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+    | a| b| 
+ | 0| 1| 2| 
+←| 1| 1| 2| 
+ | 2| 0| 1| 
+ | 3| 1| 2|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is not deterministic.
+Automaton is now complete.
+Here is the complete automata : 
+
+    | a| b| 
+ | 0| 1| 2| 
+←| 1| 1| 2| 
+ | 2| 0| 1| 
+ | 3| 1| 2|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+Here is the standardized automata : 
+
+    | a| b| 
+→| I| 1| 2| 
+ | 0| 1| 2| 
+←| 1| 1| 2| 
+ | 2| 0| 1| 
+ | 3| 1| 2|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+↔| 0| 1| 2| 
+→| 1| 1| 2| 
+←| 2| 0| 1| 
+↔| 3| 1| 2|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 40
+    | a | b | 
+↔| 0|   | 12| 
+→| 1| 02| 2 | 
+←| 2| 0 |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | b | 
+←| 0 |   | 12| 
+ | 1 | 02| 2 | 
+←| 2 | 0 |   | 
+←| 12| 02| 2 | 
+←| 02| 0 | 12|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is not deterministic.
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | b | 
+←| 0 | P | 12| 
+ | 1 | 02| 2 | 
+←| 2 | 0 | P | 
+←| 12| P | P | 
+←| 02| P | P | 
+ | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+Here is the standardized automata : 
+
+     | a | b | 
+→| I | 02| 2 | 
+←| 0 |   | 12| 
+ | 1 | 02| 2 | 
+←| 2 | 0 |   | 
+ | 12|   |   | 
+ | 02|   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | b | 
+→| 0 |   | 12| 
+↔| 1 | 02| 2 | 
+ | 2 | 0 |   | 
+←| 12|   |   | 
+←| 02|   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 41
+    | a| b| 
+→| 0| 1| 4| 
+←| 1| 2| 3| 
+←| 2| 2| 3| 
+←| 3| 5| 5| 
+←| 4| 5| 5| 
+ | 5| 5| 5|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+The automata is already complete
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| 
+↔| 0| 1| 4| 
+ | 1| 2| 3| 
+ | 2| 2| 3| 
+ | 3| 5| 5| 
+ | 4| 5| 5| 
+←| 5| 5| 5|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 42
+    | a| b| c| 
+ | 0| 3| 1| 3| 
+↔| 1| 0| 2|  | 
+ | 2| 1| 4| 4| 
+ | 3| 3| 3| 3| 
+ | 4| 4| 4| 4|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+The automata is already deterministic
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+    | a| b| c| 
+ | 0| 3| 1| 3| 
+↔| 1| 0| 2| P| 
+ | 2| 1| 4| 4| 
+ | 3| 3| 3| 3| 
+ | 4| 4| 4| 4| 
+ | P| P| P| P|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+    | a| b| c| 
+←| 0| 3| 1| 3| 
+→| 1| 0| 2|  | 
+←| 2| 1| 4| 4| 
+←| 3| 3| 3| 3| 
+←| 4| 4| 4| 4|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 43
+    | a | b | 
+→| 0| 0 | 10| 
+ | 1| 2 |   | 
+←| 2| 2 | 2 |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+      |  a |  b | 
+→|  0 |  0 |  10| 
+ |  1 |  2 |    | 
+←|  2 |  2 |  2 | 
+ |  10|  20|  10| 
+←|  20|  20| 210| 
+←| 210|  20| 210|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+      | a | b | 
+→|  0 | 0 | 10| 
+ |  1 | 2 | P | 
+←|  2 | 2 | 2 | 
+ |  10| P | P | 
+ |  20| P | P | 
+ | 210| P | P | 
+ |  P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+      | a | b | 
+↔|  0 | 0 | 10| 
+←|  1 | 2 |   | 
+ |  2 | 2 | 2 | 
+←|  10|   |   | 
+←|  20|   |   | 
+←| 210|   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+1
+Enter the number of the automaton : 44
+    | a | b | 
+→| 0| 12| 2 | 
+ | 1|   | 3 | 
+←| 2| 3 | 2 | 
+←| 3| 32| 32|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+2
+Here is the determinized automaton : 
+
+     | a | b | 
+→| 0 | 12| 2 | 
+ | 1 |   | 3 | 
+←| 2 | 3 | 2 | 
+←| 3 | 32| 32| 
+←| 12| 3 | 32| 
+←| 32| 32| 32|
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+3
+Automaton is deterministic.
+Here is the complete automata : 
+
+     | a | b | 
+→| 0 | 12| 2 | 
+ | 1 | P | 3 | 
+←| 2 | 3 | 2 | 
+←| 3 | 32| 32| 
+ | 12| P | P | 
+ | 32| P | P | 
+ | P | P | P |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+4
+The automata is already standard
+
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+5
+Here is the complementary automata : 
+
+     | a | b | 
+↔| 0 | 12| 2 | 
+←| 1 |   | 3 | 
+ | 2 | 3 | 2 | 
+ | 3 | 32| 32| 
+←| 12|   |   | 
+←| 32|   |   |
+What would you like to do ? 
+  1 : Enter a new automaton
+  2 : Determinize the automaton
+  3 : Complete the automaton
+  4 : Standardize the automaton
+  5 : Print out the complementary
+  6 : Read a word
+  7 : exit 
+7
+Goodbye

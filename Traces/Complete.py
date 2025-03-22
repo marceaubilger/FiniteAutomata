@@ -37,14 +37,17 @@ def CompleteAutomata(automaton):
         return automaton
     else:
         # Create a copy of the automaton
-        new_automaton = automaton.copy()
+        new_automaton = automaton
         # Check if the automaton is deterministic
         if not d.is_deterministic(new_automaton):
+            print("Automaton is not deterministic.")
             # Determinize the automaton
             new_automaton = d.DeterminizeAutomata(new_automaton)
             # Check if the determinized automaton is complete
             if IsComplete(new_automaton):
+                print("Automaton is now complete.")
                 return new_automaton
+        print("Automaton is deterministic.")
         # Create a copy of the states and add a new state "P"
         new_states = new_automaton.states.copy()
         new_states.append("P")

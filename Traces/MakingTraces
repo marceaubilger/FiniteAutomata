@@ -2,7 +2,7 @@ import keyboard
 import time as t
 
 
-"""# Blocks until you press esc.
+# Blocks until you press esc.
 keyboard.wait('esc')
 
 
@@ -19,23 +19,23 @@ dict={
     "9":"shift+ç"
 }
 
-for i in range(32,45):
+for i in range(1,45):
     print(i)
     full=""
     for l in str(i):
         full+=dict[l]+", "
     full+="enter"
     keyboard.press_and_release(full)
-    t.sleep(0.1)
+    t.sleep(0.5)
     for l in range(2,6):
         full2=dict[str(l)]+", enter"
         keyboard.press_and_release(full2)
-        t.sleep(0.1)
+        t.sleep(0.5)
     if i!=44:
         keyboard.press_and_release("shift+&, enter")
-        t.sleep(0.1)
-        keyboard.press_and_release("shift+d, shift+e, shift+l, enter")
-        t.sleep(30)
+        t.sleep(0.5)
 
-"""
+keyboard.press_and_release("shift+è, enter")
+
+
 
