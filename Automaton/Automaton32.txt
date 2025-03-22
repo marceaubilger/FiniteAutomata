@@ -1,5 +1,5 @@
 Automaton32
-abc
+abcε
 22
 0
 21

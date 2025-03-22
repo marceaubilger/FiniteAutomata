@@ -34,7 +34,7 @@ def Menu():
     if filepath!=0:
         automata=r.readFileToDictionary(filepath)
         automata= r.CreateAutomata(automata)
-        automata.display()
+        print(str(automata))
         DoStuffWithAutomata(automata)
 
 

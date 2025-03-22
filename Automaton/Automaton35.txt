@@ -1,5 +1,5 @@
 Automaton35
-ab
+abε
 11
 0
 10
