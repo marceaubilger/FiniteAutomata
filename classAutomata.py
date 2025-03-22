@@ -2,7 +2,7 @@ import Deterministic as d
 
 class Automata:
 
-    def __init__(self,states,alphabet,transitions,initials,finals,howMany):
+    def __init__(self,states,alphabet,transitions,initials,finals,howMany,epsilonTransitions,closures):
         self.alphabet=alphabet              #set of letters
         self.states=states                  #list of states 
         self.initials=initials              #set of initials state
